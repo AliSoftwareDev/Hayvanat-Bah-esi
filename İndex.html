@@ -1,0 +1,149 @@
+
+<!DOCTYPE html><html lang="tr">
+<head> <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hayvanlar Alemi</title> 
+<!-- Bootstrap CSS --> 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<!-- Animate.css --> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"> 
+<!-- AOS --> 
+<link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"rel="stylesheet"> 
+<!-- Font Awesome --> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"> 
+<!-- Hover.css --> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"> 
+<!-- Kendi CSS dosyamız (gerekirse) --> 
+<link rel="stylesheet" href="style.css"> 
+</head> 
+<body>
+<!-- Navbar Başlangıç -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+<a class="navbar-brand" href="#">Düzce Wildlife Park</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Anasayfa</a>
+        </li>
+
+      <li class="nav-item">
+          <a class="nav-link" href="/hakkimizda.html">Hakkımızda</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="turlerDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Hayvan Türleri
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="turlerDropdown">
+            <li><h6 class="dropdown-header">Memeliler</h6></li>
+            <li><a class="dropdown-item" href="/hayvanlar/aslan/index.html">Aslan</a></li>
+            <li><a class="dropdown-item" href="/hayvanlar/tavsan/index.html">Tavşan</a></li>
+            <li><a class="dropdown-item" href="/hayvanlar/kaplan/index.html">Kaplan</a></li>
+            <li><a class="dropdown-item" href="/hayvanlar/jaguar/index.html">Jaguar</a></li>
+            <li><a class="dropdown-item" href="/hayvanlar/Maymun/index.html">Maymun</a></li>
+            <li><hr class="dropdown-divider"></li>
+
+            <li><h6 class="dropdown-header">Kuşlar</h6></li>
+            <li><a class="dropdown-item" href="/hayvanlar/turna/index.html">Turna</a></li>
+            <li><a class="dropdown-item" href="/hayvanlar/kartal/index.html">Kartal</a></li>
+            <li><a class="dropdown-item" href="/hayvanlar/baykus/index.html">Baykuş</a></li>
+            <li><a class="dropdown-item" href="/hayvanlar/papagan/index.html">Papağan</a></li>
+            <li><a class="dropdown-item" href="/hayvanlar/dogan/index.html">Doğan</a></li>
+            <li><hr class="dropdown-divider"></li>
+
+            <li><h6 class="dropdown-header">Sürüngenler</h6></li>
+            <li><a class="dropdown-item" href="/hayvanlar/kertenkele/index.html">kertenkele</a></li>
+            <li><a class="dropdown-item" href="/hayvanlar/yilan/index.html">Yılan</a></li>
+            <li><a class="dropdown-item" href="/hayvanlar/kaplumbaga/index.html">Kaplumbağa</a></li>
+            <li><a class="dropdown-item" href="/hayvanlar/timsah/index.html">Timsah</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="/ziyaret.html">Ziyaret</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="/contact.html">İletişim</a>
+        </li>
+      </ul>
+        <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!-- Navbar Bitiş -->
+
+<!-- Hero Section Başlangıç -->
+ <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="images/sb1892.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/depositphotos_29874749-stock-photo-wild-european-rabbits.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/baykus-09.jpg" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/jako-papagan.jpg" alt="Fourth slide">
+    </div>
+  </div>
+ </div>
+
+ <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev" aria-label="Önceki">
+ <span class="carousel-control-prev-icon" aria-hidden="true"></span>    
+ </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next" aria-label="Sonraki">
+    <span class="carousel-control-next-icon" aria-hidden="true"</span>
+  </button>
+
+<div class="carousel-indicators">
+  <button type="button"  data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-label="1"></button>
+  <button type="button"  data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="2"></button>
+  <button type="button"  data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="3"></button>
+  <button type="button"  data-bs-target="#heroCarousel" data-bs-slide-to="3" aria-label="4"></button>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>AOS.init();</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+</body> 
+</html>
